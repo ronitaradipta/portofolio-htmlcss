@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roni Taradipta</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div>
+          <img src="assets/logo.png" alt="" />
+        </div>
+        <div>
+          <button id="btn-toggle" onclick="dropDown()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+        <div id="nav-list" class="nav-list">
+          <ul>
+            <li><a href="#home" onclick="dropDown()">Home</a></li>
+            <li><a href="#tentang" onclick="dropDown()">Tentang</a></li>
+            <li><a href="#proyek" onclick="dropDown()">Proyek</a></li>
+            <li class="contact-btn" onclick="dropDown()">
+              <a href="#kontak">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <article id="home">
+        <div class="container">
+          <div class="title">
+            <h3>Website Portofolio</h3>
+            <h1>Roni Taradipta</h1>
+            <p>Frontend Web Developer</p>
+            <button><a href="#kontak">Kontak Saya</a></button>
+          </div>
+          <div class="hero-image">
+            <img src="assets/hero-img.png" alt="hero image" />
+          </div>
+        </div>
+      </article>
+      <article id="tentang" class="container">
+        <div class="tentang-profile">
+          <div>
+            <img src="assets/profile-img.png" alt="profile" />
+          </div>
+          <div class="about-description">
+            <h2>Tentang Saya</h2>
+            <p>
+              Telah berpengalaman selama 1 tahun sebagai junior Front End
+              developer, khususnya dalam membangun web application. Bekerja
+              secara freelance di salah satu perusahaan startup di Indonesia.
+              Memiliki dedikasi yang tinngi dan mampu menyelesaikan tugas yang
+              diberikan tepat waktu.
+            </p>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>Skill Saya</h3>
+          <div class="skill-collections">
+            <div class="skill-card">
+              <img src="assets/logo-skill/html.png" alt="" />
+              <p>Html</p>
+            </div>
+            <div class="skill-card">
+              <img src="assets/logo-skill/css.png" alt="" />
+              <p>Css</p>
+            </div>
+            <div class="skill-card">
+              <img src="assets/logo-skill/javascript.png" alt="" />
+              <p>Javascript</p>
+            </div>
+            <div class="skill-card">
+              <img src="assets/logo-skill/bootstrap.png" alt="" />
+              <p>Bootstrap</p>
+            </div>
+            <div class="skill-card">
+              <img src="assets/logo-skill/reactjs.png" alt="" />
+              <p>React Js</p>
+            </div>
+            <div class="skill-card">
+              <img src="assets/logo-skill/git.png" alt="" />
+              <p>VCS/Git</p>
+            </div>
+            <div class="skill-card">
+              <img src="assets/logo-skill/figma.png" alt="" />
+              <p>UI/UX</p>
+            </div>
+            <div class="skill-card">
+              <img src="assets/logo-skill/wordpress.png" alt="" />
+              <p>Wordpress</p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article id="proyek">
+        <div class="container">
+          <h2>Portofolio Project</h2>
+          <div class="portofolio-collections">
+            <a href="#" class="portofolio-card">
+              <img src="assets/republikrupiah.png" alt="republik rupiah" />
+              <div class="card-description">
+                <h3>Website Republik Rupiah</h3>
+                <p>Wordpress</p>
+              </div>
+            </a>
+            <a href="#" class="portofolio-card">
+              <img src="assets/chainlords.png" alt="chainlords" />
+              <div class="card-description">
+                <h3>Website Chainlords</h3>
+                <p>Wordpress</p>
+                <p>Next Js</p>
+              </div>
+            </a>
+            <a href="#" class="portofolio-card">
+              <img src="assets/kerjai.png" alt="kerjai" />
+              <div class="card-description">
+                <h3>Website kerjai</h3>
+                <p>React-Js</p>
+                <p>Tailwind</p>
+              </div>
+            </a>
+            <a href="#" class="portofolio-card">
+              <img src="assets/nextcommerce.png" alt="nextcommerce" />
+              <div class="card-description">
+                <h3>Website Next Commerce</h3>
+                <p>Next Js</p>
+                <p>Tailwind</p>
+              </div>
+            </a>
+            <a href="#" class="portofolio-card">
+              <img src="assets/sitanggap.png" alt="sitanggap" />
+              <div class="card-description">
+                <h3>Aplikasi Sitanggap</h3>
+                <p>Design UI/UX</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </article>
+      <article id="kontak">
+        <div class="container">
+          <div>
+            <h2>Punya pertanyaan lebih lanjut?</h2>
+            <p>Anda bisa menghubungi kontak saya</p>
+          </div>
+          <aside>
+            <h3>Creator</h3>
+            <img class="profile-img" src="assets/profile-img.png" alt="" />
+            <h4>Roni Taradipta</h4>
+            <p>Front-End Web Development</p>
+            <div class="info">
+              <img src="assets/email.png" alt="email" />
+              <p>roni.divine@gmail.com</p>
+            </div>
+            <div class="info">
+              <img src="assets/phone.png" alt="phone" />
+              <p>+6288 7362 7137</p>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <a href="#" id="scroll-top">
+        <img src="assets/arrow-up.svg" alt="" />
+      </a>
+    </main>
+    <footer>
+      <div class="container">
+        <div><img src="assets/logo.png" alt="roni-logo" /></div>
+        <div><p>Copyright 2022 Roni Taradipta | All Right Reserved</p></div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
